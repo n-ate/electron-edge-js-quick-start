@@ -1,7 +1,7 @@
 {
   "name": "electron-edge-js-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application using `electron-edge-js` with .NET",
+  "version": "1.1.0",
+  "description": "A minimal Electron application using `electron-edge-js` with .NET Core 3.1",
   "main": "main.js",
   "scripts": {
     "start": "electron --core .",
@@ -9,7 +9,7 @@
     "start:standard": "electron --standard .",
     "start:native": "electron --native ."
   },
-  "repository": "https://github.com/agracio/electron-edge-js-quick-start",
+  "repository": "https://github.com/DanBlumenfeld/electron-edge-js-quick-start",
   "keywords": [
     "Electron",
     "quick",
@@ -22,6 +22,6 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^5.0.3",
-    "electron-edge-js": "^12.4.0"
+    "electron-edge-js": "git+https://github.com/DanBlumenfeld/electron-edge-js.git"
   }
 }

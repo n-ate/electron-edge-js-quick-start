@@ -3,7 +3,7 @@ var version = location.search.split('version=')[1];
 var namespace = 'QuickStart.' + version.charAt(0).toUpperCase() + version.substr(1);
 if(version === 'core') version = 'coreapp';
 
-const baseNetAppPath = path.join(__dirname, '/src/'+ namespace +'/bin/Debug/net'+ version +'2.0');
+const baseNetAppPath = path.join(__dirname, '/src/'+ namespace +'/bin/Debug/net'+ version +'3.1');
 
 process.env.EDGE_USE_CORECLR = 1;
 if(version !== 'standard')
@@ -40,6 +40,12 @@ var getPerson = edge.func({
     methodName: 'GetPersonInfo'
 });
 
+var getRuntime = edge.func({
+    assemblyFile: baseDll,
+    typeName: localTypeName,
+    methodName: 'GetCurrentRuntime'
+});
+
 
 window.onload = function() {
 
@@ -61,6 +67,11 @@ window.onload = function() {
     getPerson('', function(error, result) {
         //if (error) throw JSON.stringify(error);
         document.getElementById("GetPersonInfo").innerHTML = result;
+    });
+
+     getRuntime('', function(error, result) {
+        if (error) throw error;
+        document.getElementById("GetRuntime").innerHTML = result;
     });
 
 };

@@ -19,5 +19,10 @@ namespace QuickStart.Core
         {
             return $".NET Core welcomes {input}";
         }
+
+        public async Task<object> GetCurrentRuntime(dynamic input)
+        {
+            return System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription;
+        }
     }
 }
