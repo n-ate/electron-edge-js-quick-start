@@ -1,0 +1,89 @@
+[33mcommit 40c53fa2515efb965d86d7eb3d23e9276075180f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dan Blumenfeld <dbld@tobii.com>
+Date:   Wed Mar 4 10:33:47 2020 -0500
+
+    Updated quickstart to use (only) .NET Core 3.1
+
+[33mcommit cad1c660922a2c19760eacb76dd270724d3c90ec[m
+Author: agracio <antonas.graciovas@gmail.com>
+Date:   Sun Sep 8 16:06:39 2019 +0100
+
+    updated dependencies
+
+[33mcommit 4f8c62c16da34024a6d9a1fc0504c63c206da46d[m
+Author: agracio <antonas.graciovas@gmail.com>
+Date:   Sun Sep 8 16:04:02 2019 +0100
+
+    adding `nodeIntegrationInWorker: true`
+
+[33mcommit ef9fac82344a1ba77ac1369fb33488c3193abdda[m
+Author: agracio <antonas.graciovas@gmail.com>
+Date:   Mon Jun 10 20:19:43 2019 +0100
+
+    - updating packages, adding Electron 5
+
+[33mcommit 619e0dc6d3d75e2432533f5e496506a1651fa2d7[m
+Author: agracio <agracio@users.noreply.github.com>
+Date:   Tue Nov 27 16:47:55 2018 +0000
+
+    updating electron version to address vulnerability
+
+[33mcommit 085e0b78ddda55e233c71251133df54bd4a45ea3[m
+Author: agracio <agracio@users.noreply.github.com>
+Date:   Tue Nov 27 16:44:19 2018 +0000
+
+    Update README.md
+
+[33mcommit f07c8efbfa883ac624dd58fb401075b153b1917e[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Wed Jun 13 23:21:48 2018 +0100
+
+    updating quick start
+
+[33mcommit d81b15151555cfa85fb0d15dcadd76a52f859b2e[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Wed Jun 13 23:19:36 2018 +0100
+
+    updating quick start
+
+[33mcommit e522faa250c846ce4ab811ff1eb76a950da59bc7[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Wed Jun 13 22:56:34 2018 +0100
+
+    updating quick start
+
+[33mcommit 98532d608c97d1bfc0712372a15734eb5978b4aa[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Fri Mar 30 14:42:14 2018 +0100
+
+    updating readme
+
+[33mcommit 5bd3c450cac32d0a9260be692fee051594141551[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Fri Mar 30 14:38:32 2018 +0100
+
+    updating readme
+
+[33mcommit 96decb6c8c7db07751779b0e3b56c1c11cc3d460[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Tue Mar 27 11:04:49 2018 +0100
+
+    fixing project references
+
+[33mcommit 4c725ea60e280cef72ebdaea7e96d459ee7e522c[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Mon Dec 18 20:17:07 2017 +0000
+
+    initial commit
+
+[33mcommit e88d39cf36c34482a7388023d721d97ee1427701[m
+Author: agracio <antonas.graciovas@outlook.com>
+Date:   Mon Dec 18 20:08:08 2017 +0000
+
+    initial commit
+
+[33mcommit 96f8ce608dbabb75cc2f8b3ea57356383b38d71b[m
+Author: agracio <agracio@users.noreply.github.com>
+Date:   Mon Dec 18 20:04:21 2017 +0000
+
+    Initial commit
